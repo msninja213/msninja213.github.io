@@ -1,6 +1,6 @@
 ---
 layout: default
-title: pg1
+title: about
 ---
 
 [image]

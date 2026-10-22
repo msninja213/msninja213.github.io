@@ -47,7 +47,10 @@ nav a.active { font-weight: bold; }
 .tl-item summary:hover { text-decoration: underline; }
 
 /* the pop-up box */
-.reflection { text-align: left; background: #f4f4f4; padding: 0.5rem 1rem; border-radius: 8px; margin-top: 0.7rem; }
+.reflection { position: relative; text-align: left; background: #f4f4f4; padding: 0.5rem 2.5rem 0.5rem 1rem; border-radius: 8px; margin-top: 0.7rem; }
+
+.close-btn { position: absolute; top: 0.4rem; right: 0.6rem; background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #222; }
+.close-btn:hover { color: #888; }
 
 /* phones: line on the left, everything on one side */
 @media (max-width: 600px) {

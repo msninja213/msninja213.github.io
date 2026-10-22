@@ -58,3 +58,10 @@ nav a.active { font-weight: bold; }
   .tl-item, .tl-item.right { width: 100%; margin-left: 0; padding: 0 0 2rem 2rem; text-align: left; }
   .tl-item.left::after, .tl-item.right::after { left: 0; right: auto; }
 }
+
+/* for map */
+#map { height: 450px; border: 1px solid #222; border-radius: 8px; background: #dfe9ee; }
+.post-panel { margin-top: 1rem; }
+.post-panel[hidden] { display: none; }
+.post-panel h3 { margin-top: 0.5rem; }
+.pin { background: none; border: none; font-size: 22px; line-height: 1; }

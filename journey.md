@@ -11,7 +11,13 @@ title: phd journey
       <div class="reflection">
         <button type="button" class="close-btn" aria-label="Close" onclick="this.closest('details').removeAttribute('open')">×</button>
         <p>Write your Fall 2026 reflection here.</p>
-        <p>Getting used to graduate school.</p>
+        <p><b>Semester favorites:</b></p>
+        <ul>
+          <li>Sour Duck. Expensive but honestly worth it</li>
+          <li>L.L. Bean 100% cotton t-shirts. Classic and worth it</li>
+          <li>Treating my PhD like an 8am-5pm job</li>
+          <li>Mathematical Foundations Of Information Theory (A.I. Khinchin)</li>
+        </ul>
       </div>
     </details>
   </div>

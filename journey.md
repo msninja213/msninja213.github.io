@@ -9,6 +9,7 @@ title: phd journey
     <details>
       <summary>Fall 2026</summary>
       <div class="reflection">
+        <button type="button" class="close-btn" aria-label="Close" onclick="this.closest('details').removeAttribute('open')">×</button>
         <p>Write your Fall 2026 reflection here.</p>
         <p>Getting used to graduate school.</p>
       </div>
@@ -19,7 +20,9 @@ title: phd journey
     <details>
       <summary>Spring 2027</summary>
       <div class="reflection">
-        <p>Write your Spring 2027 reflection here.</p>
+        <button type="button" class="close-btn" aria-label="Close" onclick="this.closest('details').removeAttribute('open')">×</button>
+        <p>Write your Fall 2026 reflection here.</p>
+        <p>Getting used to graduate school.</p>
       </div>
     </details>
   </div>

@@ -50,4 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
       }).addTo(map);
     });
+
+    L.marker([22.32, 114.17], {
+      title: 'Hong Kong',
+      icon: L.divIcon({ html: '📍', className: 'pin', iconSize: [24, 24], iconAnchor: [12, 24] })
+    }).addTo(map).on('click', function () { if (posts['HKG']) showPost('HKG'); });
 });

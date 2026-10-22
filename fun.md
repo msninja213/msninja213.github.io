@@ -14,7 +14,9 @@ title: fun
 <div class="post" data-id="MEX" data-name="Mexico"></div>
 <div class="post" data-id="CUB" data-name="Cuba"></div>
 <div class="post" data-id="COL" data-name="Colombia"></div>
-<div class="post" data-id="CAN" data-name="Canada" data-lat="56" data-lng="-106"></div>
+<div class="post" data-id="CAN" data-name="Canada" data-lat="56" data-lng="-106">
+  <p>I had the privilege of spending Summer 2025 conducting research at the Fields Institute in Toronto. Toronto is a beautiful and vibrant city. You can walk 15 minutes in any direction and find some sort of fun, free event. The city is walkable, and public transportation and ubers can cover the rest. You can walk for hours along the same street - I walked from Queen Street to the Fields Institute many times just shopping. Beautiful summer. </p>
+</div>
 <div class="post" data-id="NOR" data-name="Norway" data-lat="61" data-lng="9"></div>
 <div class="post" data-id="DNK" data-name="Denmark" data-lat="56" data-lng="10"></div>
 <div class="post" data-id="GBR" data-name="United Kingdom" data-lat="54" data-lng="-2"></div>

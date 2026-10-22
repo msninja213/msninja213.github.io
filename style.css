@@ -1,4 +1,4 @@
-body { margin: 0; font-family: sans-serif; background: #FFFBF4; }
+body { margin: 0; font-family: sans-serif; background: #FAF7F1; }
 nav { display: flex; gap: 1.5rem; align-items: center; padding: 1rem 2rem; border-bottom: 2px solid #222; }
 nav .name { font-weight: bold; margin-right: 1rem; }
 nav a { text-decoration: none; color: #222; padding: 0.3rem 0.7rem; border-radius: 6px; }

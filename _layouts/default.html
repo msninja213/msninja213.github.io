@@ -9,10 +9,10 @@
 <body>
   <nav>
     <span class="name">malaika</span>
-    <a href="/">about</a>
-    <a href="/research">research</a>
-    <a href="/resources">resources</a>
-    <a href="/for fun">for fun</a>
+    <a href="/about" {% if page.url contains 'about' %}class="active"{% endif %}>about</a>
+    <a href="/research" {% if page.url contains 'research' %}class="active"{% endif %}>research</a>
+    <a href="/page3.html" {% if page.url contains 'page3' %}class="active"{% endif %}>pg3</a>
+    <a href="/page4.html" {% if page.url contains 'page4' %}class="active"{% endif %}>pg4</a>
   </nav>
   <main>
     {{ content }}

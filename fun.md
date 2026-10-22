@@ -5,6 +5,8 @@ title: fun
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
+I am an avid traveler and have had the great privilege of traveling to all of the countries marked below. Here are some of my musings from my travels: 
+
 <div id="map"></div>
 
 <div id="posts" hidden>

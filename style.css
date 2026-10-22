@@ -9,3 +9,49 @@ main { padding: 2rem; max-width: 900px; }
 .two-col img { width: 400px; max-width: 40%; border-radius: 8px; }
 
 nav a.active { font-weight: bold; }
+
+.timeline { position: relative; max-width: 800px; margin: 2rem auto; }
+
+/* the vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #222;
+  transform: translateX(-50%);
+}
+
+.tl-item { position: relative; width: 50%; box-sizing: border-box; padding: 0 2.5rem 2rem 0; text-align: right; }
+.tl-item.right { margin-left: 50%; padding: 0 0 2rem 2.5rem; text-align: left; }
+
+/* the dots on the line */
+.tl-item::after {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #222;
+}
+.tl-item.left::after { right: -7px; }
+.tl-item.right::after { left: -7px; }
+
+/* clickable title */
+.tl-item summary { cursor: pointer; font-weight: bold; font-size: 1.2rem; list-style: none; }
+.tl-item summary::-webkit-details-marker { display: none; }
+.tl-item summary:hover { text-decoration: underline; }
+
+/* the pop-up box */
+.reflection { text-align: left; background: #f4f4f4; padding: 0.5rem 1rem; border-radius: 8px; margin-top: 0.7rem; }
+
+/* phones: line on the left, everything on one side */
+@media (max-width: 600px) {
+  .timeline::before { left: 7px; }
+  .tl-item, .tl-item.right { width: 100%; margin-left: 0; padding: 0 0 2rem 2rem; text-align: left; }
+  .tl-item.left::after, .tl-item.right::after { left: 0; right: auto; }
+}

@@ -1,3 +1,5 @@
+:root { --popup-background: #c7a77c; }
+
 body { margin: 0; font-family: sans-serif; background: #FAF7F1; }
 nav { display: flex; gap: 1.5rem; align-items: center; padding: 1rem 2rem; border-bottom: 2px solid #222; }
 nav .name { font-weight: bold; margin-right: 1rem; }
@@ -47,7 +49,7 @@ nav a.active { font-weight: bold; }
 .tl-item summary:hover { text-decoration: underline; }
 
 /* the pop-up box */
-.reflection { position: relative; text-align: left; background: #f4f4f4; padding: 0.5rem 2.5rem 0.5rem 1rem; border-radius: 8px; margin-top: 0.7rem; }
+.reflection { position: relative; text-align: left; background: var(--popup-background); padding: 0.5rem 2.5rem 0.5rem 1rem; border-radius: 8px; margin-top: 0.7rem; }
 
 .close-btn { position: absolute; top: 0.4rem; right: 0.6rem; background: none; border: none; font-size: 1.5rem; line-height: 1; cursor: pointer; color: #222; }
 .close-btn:hover { color: #888; }
@@ -61,5 +63,6 @@ nav a.active { font-weight: bold; }
 
 /* for map */
 #map { height: 450px; border: 1px solid #222; border-radius: 8px; background: #dfd4c2; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--popup-background); }
 .leaflet-popup-content h3 { margin: 0.5rem 0; }
 .pin { background: none; border: none; font-size: 22px; line-height: 1; }

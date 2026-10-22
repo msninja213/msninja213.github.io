@@ -4,3 +4,6 @@ nav .name { font-weight: bold; margin-right: 1rem; }
 nav a { text-decoration: none; color: #222; padding: 0.3rem 0.7rem; border-radius: 6px; }
 nav a:hover { background: #ddd; }
 main { padding: 2rem; max-width: 900px; }
+
+.two-col { display: flex; gap: 2rem; align-items: flex-start; }
+.two-col img { width: 250px; max-width: 40%; border-radius: 8px; }

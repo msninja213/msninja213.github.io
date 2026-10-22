@@ -48,7 +48,7 @@ I am an avid traveler and have had the great privilege of traveling to all of th
 <div class="post" data-id="IND" data-name="India"></div>
 <div class="post" data-id="THA" data-name="Thailand"></div>
 <div class="post" data-id="NPL" data-name="Nepal"></div>
-<div class="post" data-id="HK" data-name="Hong Kong"></div>
+<div class="post" data-id="HKG" data-name="Hong Kong"><p>Write your post here.</p></div>
 </div>
 
 

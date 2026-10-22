@@ -12,13 +12,26 @@ I am an avid traveler and have had the great privilege of traveling to all of th
 <div id="posts" hidden>
 <div class="post" data-id="USA" data-name="United States" data-lat="39" data-lng="-98"></div>
 <div class="post" data-id="MEX" data-name="Mexico"></div>
-<div class="post" data-id="CUB" data-name="Cuba"></div>
-<div class="post" data-id="COL" data-name="Colombia"></div>
+<div class="post" data-id="CUB" data-name="Cuba">
+  <p> One of the most eye-opening countries I have ever visited. It felt surreal most of the time. But it's amazing how local communities remain banded together and resilient. 
+  </p>
+</div>
+  
+<div class="post" data-id="COL" data-name="Colombia">
+  <p> Colombia is my favorite country that I have visited. I had the privilege to visit in 2015, shortly after the FARC rebels signed a peace treaty with the government. It was amazing to see how the country rebuilt itself through social programs, and how the community and people continued to remain resilient and joyful. Truly a gift to be able to visit.
+  </p>
+</div>
+
 <div class="post" data-id="CAN" data-name="Canada" data-lat="56" data-lng="-106">
   <p>I had the privilege of spending Summer 2025 conducting research at the Fields Institute in Toronto. Toronto is a beautiful and vibrant city. You can walk 15 minutes in any direction and find some sort of fun, free event. The city is walkable, and public transportation and ubers can cover the rest. You can walk for hours along the same street - I walked from Queen Street to the Fields Institute many times just shopping. Beautiful summer. </p>
 </div>
 <div class="post" data-id="NOR" data-name="Norway" data-lat="61" data-lng="9"></div>
-<div class="post" data-id="DNK" data-name="Denmark" data-lat="56" data-lng="10"></div>
+<div class="post" data-id="DNK" data-name="Denmark" data-lat="56" data-lng="10">
+  <p> I participated in a 6-week summer study abroad program in Copenhagen, Denmark, through my undergraduate business program. I have so many special memories from this period of my life. It was one of the first times I could explore myself in a non-academic context. I realized many things about who I was and what I could offer to people, such as my sense of adventure, positivity, or humor. Most mornings, I would sip on a coffee while sitting on my window ledge and peering outside. 
+  </p>
+  <p> One of my most favorite memories is purchasing a very expensive leather jacket. It was my first purchase of that magnitude, and I had told myself I would purchase it after 3 days of thinking about it. I went back the next day. I later learned that the jacket was a couture jacket made by Ganni, meaning it is the only one in existence. It felt like fate that it fit me like a glove. Though my mother hates it, the jacket is one of my most prized possessions and I receive many compliments on it. 
+  </p>
+</div>
 <div class="post" data-id="GBR" data-name="United Kingdom" data-lat="54" data-lng="-2"></div>
 <div class="post" data-id="DEU" data-name="Germany"></div>
 <div class="post" data-id="IRL" data-name="Ireland"></div>

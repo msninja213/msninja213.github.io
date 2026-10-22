@@ -13,10 +13,11 @@ title: phd journey
         <p>Write your Fall 2026 reflection here.</p>
         <p><b>Semester favorites:</b></p>
         <ul>
-          <li>Sour Duck. Expensive but honestly worth it</li>
+          <li>Sour Duck (restaurant). Expensive but honestly worth it</li>
           <li>L.L. Bean 100% cotton t-shirts. Classic and worth it</li>
           <li>Treating my PhD like an 8am-5pm job</li>
           <li>Mathematical Foundations Of Information Theory (A.I. Khinchin)</li>
+          <li><a href="https://md-product.com/en/products/md-notebook-a5?variant=48185191661792">Midori Graph Rule A5 Notebook</a>. Perfect size to carry everywhere</li>
         </ul>
       </div>
     </details>

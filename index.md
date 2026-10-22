@@ -9,7 +9,7 @@ My name is Malaika Shah, and I am a first-year PhD student in the Operations Res
 <br><br>
 Please feel free to email me at mshah213[at]utexas[dot]edu
     <br><br>
-[Linkedin](https://www.linkedin.com/in/malaika-shah/)
+<a href="https://www.linkedin.com/in/malaika-shah/" target="_blank">LinkedIn</a>
   </div>
 </div>
 

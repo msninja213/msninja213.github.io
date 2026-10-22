@@ -31,6 +31,8 @@ I am an avid traveler and have had the great privilege of traveling to all of th
   </p>
   <p> One of my most favorite memories is purchasing a very expensive leather jacket. It was my first purchase of that magnitude, and I had told myself I would purchase it after 3 days of thinking about it. I went back the next day. I later learned that the jacket was a couture jacket made by Ganni, meaning it is the only one in existence. It felt like fate that it fit me like a glove. Though my mother hates it, the jacket is one of my most prized possessions and I receive many compliments on it. 
   </p>
+  <p> My favorite day in Denmark was the day my business program planned a trip for us to visit the Louisiana Museum of Modern Art. The museum at the very northern tip of Denmark, with a grassy patch that leads you down to the arctic ocean. After touring the museum, my friends and I layed down on the grass, then ended up jumping into ocean. It's a very prized memory.
+  </p>
 </div>
 <div class="post" data-id="GBR" data-name="United Kingdom" data-lat="54" data-lng="-2"></div>
 <div class="post" data-id="DEU" data-name="Germany"></div>

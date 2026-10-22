@@ -7,7 +7,7 @@ title: research
 Shah, Malaika, et al. [A Quantitative Analysis of Cultural Universals and Variation in Moral Association](https://escholarship.org/content/qt3km141jn/qt3km141jn.pdf). *Cognitive Science Society Conference 2026*.
 
 ## Conferences
-July 2026 - [Cogsci 2026](https://cognitivesciencesociety.org/cogsci-2026/). [Poster presentation](/attachments/CogSciPoster2026.pdf)
+July 2026 - [Cogsci 2026](https://cognitivesciencesociety.org/cogsci-2026/). [Poster presentation](/attachments/CogSci2026Poster.pdf)
 
 April 2026 - [Stanford Undergraduate Research Conference](https://sura.stanford.edu/stanford-research-conference). [Poster presentation](/attachments/OdenPoster.pdf)
 

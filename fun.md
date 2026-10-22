@@ -7,8 +7,6 @@ title: fun
 
 <div id="map"></div>
 
-<div id="post-panel" class="reflection post-panel" hidden></div>
-
 <div id="posts" hidden>
 <div class="post" data-id="USA" data-name="United States" data-lat="39" data-lng="-98"></div>
 <div class="post" data-id="MEX" data-name="Mexico"></div>

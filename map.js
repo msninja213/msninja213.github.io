@@ -7,16 +7,20 @@ document.addEventListener('DOMContentLoaded', function () {
     posts[el.dataset.id] = el;
   });
 
-  var panel = document.getElementById('post-panel');
-
-  function showPost(id) {
+  function showPost(id, latlng) {
     var el = posts[id];
-    panel.innerHTML =
-      '<button type="button" class="close-btn" aria-label="Close">×</button>' +
-      '<h3>' + el.dataset.name + '</h3>' + el.innerHTML;
-    panel.hidden = false;
-    panel.querySelector('.close-btn').onclick = function () { panel.hidden = true; };
-    panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    var content = document.createElement('div');
+    var heading = document.createElement('h3');
+    heading.textContent = el.dataset.name;
+    content.appendChild(heading);
+    Array.from(el.children).forEach(function (child) {
+      content.appendChild(child.cloneNode(true));
+    });
+
+    L.popup({ maxWidth: 360, maxHeight: 260 })
+      .setLatLng(latlng)
+      .setContent(content)
+      .openOn(map);
   }
 
   var baseStyle = { color: '#999', weight: 1, fillColor: '#e9e4d8', fillOpacity: 1 };
@@ -32,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function () {
           if (!el) return;
 
           layer.bindTooltip(el.dataset.name, { sticky: true });
-          layer.on('click', function () { showPost(f.id); });
+          layer.on('click', function (event) { showPost(f.id, event.latlng); });
 
           // pin goes at the country's center, or at data-lat / data-lng if you set them
           var pos = (el.dataset.lat && el.dataset.lng)
@@ -42,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
           L.marker(pos, {
             title: el.dataset.name,
             icon: L.divIcon({ html: '📍', className: 'pin', iconSize: [24, 24], iconAnchor: [12, 24] })
-          }).addTo(map).on('click', function () { showPost(f.id); });
+          }).addTo(map).on('click', function () { showPost(f.id, pos); });
         }
       }).addTo(map);
     });

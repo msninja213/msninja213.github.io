@@ -15,3 +15,6 @@ Shah, Malaika, et al. [A Quantitative Analysis of Cultural Universals and Variat
 
 ## Awards
 Cockrell School of Engineering Graduate Fellowship (2026 - Present)
+
+## Projects
+

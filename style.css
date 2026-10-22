@@ -6,4 +6,4 @@ nav a:hover { background: #ddd; }
 main { padding: 2rem; max-width: 900px; }
 
 .two-col { display: flex; gap: 2rem; align-items: flex-start; }
-.two-col img { width: 250px; max-width: 40%; border-radius: 8px; }
+.two-col img { width: 400px; max-width: 40%; border-radius: 8px; }

@@ -60,7 +60,7 @@ nav a.active { font-weight: bold; }
 }
 
 /* for map */
-#map { height: 450px; border: 1px solid #222; border-radius: 8px; background: #dfe9ee; }
+#map { height: 450px; border: 1px solid #222; border-radius: 8px; background: #dfd4c2; }
 .post-panel { margin-top: 1rem; }
 .post-panel[hidden] { display: none; }
 .post-panel h3 { margin-top: 0.5rem; }

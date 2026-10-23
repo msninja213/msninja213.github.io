@@ -35,7 +35,12 @@ I am an avid traveler and have had the great privilege of traveling to all of th
   </p>
 </div>
 <div class="post" data-id="GBR" data-name="United Kingdom" data-lat="54" data-lng="-2"></div>
-<div class="post" data-id="DEU" data-name="Germany"></div>
+<div class="post" data-id="DEU" data-name="Germany">
+<p>I was only able to spend 2 days in Berlin, but I loved it. I enjoy history, so there was a lot to see in Berlin. Brandenburg Gate is even more amazing inperson. 
+</p>
+<p>At the time, I wasn't a big techno music fan but the clubs are great. People are respectful.
+</p>
+</div>
 <div class="post" data-id="IRL" data-name="Ireland"></div>
 <div class="post" data-id="ESP" data-name="Spain" data-lat="40" data-lng="-4"></div>
 <div class="post" data-id="FRA" data-name="France" data-lat="46.6" data-lng="2.5"></div>
@@ -53,6 +58,7 @@ I am an avid traveler and have had the great privilege of traveling to all of th
 <div class="post" data-id="HKG" data-name="Hong Kong"><p>Write your post here.</p></div>
 </div>
 
+During my freetime, you will often catch me shopping, practicing Taekwondo through the UT Taekwondo team, or spending time with friends. 
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="/map.js"></script>

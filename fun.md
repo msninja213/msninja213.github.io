@@ -5,8 +5,7 @@ title: fun
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
-I am an avid traveler and have had the great privilege of visiting all the countries marked below. Click on the pins to read about some of my musings from my travels: 
-
+I am an avid traveler and have had the great privilege of visiting all the countries marked below. Click on the pins to read about my musings on the country: 
 
 <div id="map"></div>
 

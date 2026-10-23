@@ -17,7 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
       content.appendChild(child.cloneNode(true));
     });
 
-    L.popup({ maxWidth: 360, maxHeight: 260 })
+    // size the popup to the map so it never gets cut off on small screens
+    var size = map.getSize();
+    L.popup({
+      maxWidth: Math.min(360, size.x - 60),
+      maxHeight: Math.max(120, Math.min(260, size.y - 120)),
+      autoPanPaddingTopLeft: [10, 10],
+      autoPanPaddingBottomRight: [10, 10]
+    })
       .setLatLng(latlng)
       .setContent(content)
       .openOn(map);
@@ -54,5 +61,5 @@ document.addEventListener('DOMContentLoaded', function () {
     L.marker([22.32, 114.17], {
       title: 'Hong Kong',
       icon: L.divIcon({ html: '📍', className: 'pin', iconSize: [24, 24], iconAnchor: [12, 24] })
-    }).addTo(map).on('click', function () { if (posts['HKG']) showPost('HKG'); });
+    }).addTo(map).on('click', function () { if (posts['HKG']) showPost('HKG', [22.32, 114.17]); });
 });

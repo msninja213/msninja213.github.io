@@ -57,7 +57,7 @@ I am an avid traveler and have had the great privilege of visiting all the count
 <div class="post" data-id="THA" data-name="Thailand"></div>
 <div class="post" data-id="NPL" data-name="Nepal"></div>
 <div class="post" data-id="HKG" data-name="Hong Kong"></div>
-<div class="post" data-id="UAE" data-name="United Arab Emirates"></div>
+<div class="post" data-id="ARE" data-name="United Arab Emirates"></div>
 </div>
 
 During my freetime, you will often catch me shopping, practicing Taekwondo through the UT Taekwondo team, or spending time with friends and family. 

@@ -3,6 +3,8 @@ layout: default
 title: research
 ---
 
+Various intellectual pursuits: 
+
 ## Publications
 Shah, Malaika, et al. [A Quantitative Analysis of Cultural Universals and Variation in Moral Association](https://escholarship.org/content/qt3km141jn/qt3km141jn.pdf). *Cognitive Science Society Conference 2026*.
 
@@ -17,4 +19,7 @@ Shah, Malaika, et al. [A Quantitative Analysis of Cultural Universals and Variat
 Cockrell School of Engineering Graduate Fellowship (2026 - Present)
 
 ## Projects
+
+## Current Intellectual Pursuits:
+Reading Mathematical Foundations of Information Theory by A.I. Khinchin.
 
